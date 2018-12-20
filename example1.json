@@ -1,0 +1,22 @@
+{"description":
+  {"Subjects":{
+    "Total":10,
+    "ID":["sub001","sub002","sub003","sub004","sub005","sub006","sub007","sub008","sub009","sub010"]},
+  "Longitudinal":{
+    "NTimePoints":[1,1,1,1,1,1,1,1,1,1],
+    "Separation":["N\/A","N\/A","N\/A","N\/A","N\/A","N\/A","N\/A","N\/A","N\/A","N\/A"],
+    "Repeats":[2,2,2,2,2,2,2,2,2,2]},
+  "Measure":{
+    "NMeasures":3,
+    "DataType":[22,22,22,22,22],
+    "NameOfMeasure":["seqA","seqB","seqC","seqD","seqE"],
+    "NameOfMetrics":["T1","T1","T1","T1","T1"],
+    "Units":["ms","ms","ms","ms","ms"],
+  "Segment":{
+    "Available":[1,1,1,1,1],
+    "Type":"ROI",
+    "ID":[1,2],
+    "Names":["LV","RV"]}
+    }
+  }
+}
