@@ -1,6 +1,6 @@
 ## Description  
 
-SVDS standard for visualizing a scatter plot linked to a Pearson's product-moment correlation (PPMC) statistic. 
+SVDS for visualizing a scatter plot linked to a Pearson's product-moment correlation (PPMC) statistic. 
 
 ## Format 
 
