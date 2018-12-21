@@ -7,17 +7,17 @@ SVDS standard for visualizing a scatter plot linked to a Pearson's product-momen
 | Tag | Bivariate::Pearson |
 |-----|----------------------------|
 
-- Required
+- [Required]()
      - xData     
      - yData     
      - xLabel    
      - yLabel    
      - rPearson  
      - fitLine   
-- Recommended 
+- [Recommended]() 
      - CI        
      - CIperc    
-- Optional
+- [Optional]()
      - pVal       
      - h          
      - slope      
