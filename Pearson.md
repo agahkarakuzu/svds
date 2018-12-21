@@ -14,10 +14,9 @@ SVDS for visualizing a scatter plot linked to a Pearson's product-moment correla
      - yLabel    
      - rPearson  
      - fitLine   
-- [Recommended](https://github.com/agahkarakuzu/svds/blob/master/Pearson.md#format) 
+- [Optional](https://github.com/agahkarakuzu/svds/blob/master/Pearson.md#format) 
      - CI        
      - CIperc    
-- [Optional](https://github.com/agahkarakuzu/svds/blob/master/Pearson.md#format)
      - pVal       
      - h          
      - slope      
@@ -39,12 +38,6 @@ PPMC is a non-robust measure of linear association between `xData` and `yData`. 
 | `yLabel`   | `<string>`            | Nametag for `yData`                                                                                 |
 | `rPearson` | `<float>`             | PPMC coefficient                                                                                    |
 | `fitLine`  | `<float>` `array [1X4]` | Cartesian coordinates of two points that lie on the best-fit line:`[x0,x1,y0,y1]`                   |
-### Recommended 
-
-| Key       | Type                    | Description of value                                       |
-|-----------|-------------------------|------------------------------------------------------------|
-| `CI`      | `<float>` `array [1X2]` | PPMC confidence interval: `[CI_lower,`CI_upper`]`          |
-| `CIlevel` | `<float>`               | Confidence interval level (1 - alpha). For example, 0.95.  |
 
 ### Optional 
 
@@ -54,6 +47,8 @@ PPMC is a non-robust measure of linear association between `xData` and `yData`. 
 | `h` | `<boolean>`        | Declares the significance of the PPMC  |
 | `slope` | `<float>`      | Slope of the `fitLine` |
 | `intercept` | `<float>`        | Intercept of the `fitLine`|
+| `CI`      | `<float>` `array [1X2]` | PPMC confidence interval: `[CI_lower,`CI_upper`]`          |
+| `CIlevel` | `<float>`               | Confidence interval level (1 - alpha). For example, 0.95.  |     
 | `CILine1` | `<float>` `array [1X4]`  | Cartesian coordinates of two points that lie on the line belonging to the lower `CI`:`[x0,x1,y0,y1]` |  
 | `CILine2` | `<float>` `array [1X4]`  | Cartesian coordinates of two points that lie on the line belonging to the upper `CI`:`[x0,x1,y0,y1]` |    
   
