@@ -20,9 +20,9 @@ Each plot will be associated with a set of standard key-value pairs.
 * Shift function
 * Bootstrapped comparison of correlations
 * Umbrella plots
-* Pearson
-* Spearman
-* Concordance
+* [Pearson](https://github.com/agahkarakuzu/svds/blob/master/Pearson.md)
+* [Spearman](https://github.com/agahkarakuzu/svds/blob/master/Spearman.md)
+* [Concordance](https://github.com/agahkarakuzu/svds/blob/master/Concordance.md)
 * Skipped
 * Percentage bend
 * Bivariate descriptive
