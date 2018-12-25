@@ -4,9 +4,14 @@ SVDS for visualizing a scatter plot linked to a Pearson's product-moment correla
 
 ## Format
 
-| Tag | Bivariate::Pearson |
+| Class | Bivariate::Pearson |
 |-----|----------------------------|
 
+- [Tag](https://github.com/agahkarakuzu/svds/blob/master/Pearson.md#format)
+    - Class
+    - Subject 
+    - Longitidunal
+    - Segment 
 - [Required](https://github.com/agahkarakuzu/svds/blob/master/Pearson.md#format)
      - xData     
      - yData     
@@ -28,6 +33,17 @@ SVDS for visualizing a scatter plot linked to a Pearson's product-moment correla
 
 PPMC is a non-robust measure of linear association between `xData` and `yData`. To free the interpretation of the relationship between variables from p<0.05 comparison, `pVal` is described as an optional field.
 
+### Tag
+
+Please see [description.md](https://github.com/agahkarakuzu/svds/blob/master/description.md) for further details. 
+
+| Key       | Type                    | Description of value                                       |
+|-----------|-------------------------|------------------------------------------------------------|
+| `Class`   | `<string>`|    'Bivariate::Pearson'          |
+| `Subject` | `<string>`|     SubjectID          |
+| `Longitidunal`   | `<string>`|    LongitudinalID        |
+| `Segment`   | `<string>`|    SegmentID        |
+
 ### Required
 
 | Key        | Type                  | Description of value                                                                                |
@@ -43,7 +59,7 @@ PPMC is a non-robust measure of linear association between `xData` and `yData`. 
 
 | Key       | Type                    | Description of value                                       |
 |-----------|-------------------------|------------------------------------------------------------|
-| `pVal`      | `<float>`| The p-value associated with the PPMC]`          |
+| `pVal`      | `<float>`| The p-value associated with the PPMC          |
 | `h` | `<boolean>`        | Declares the significance of the PPMC  |
 | `slope` | `<float>`      | Slope of the `fitLine` |
 | `intercept` | `<float>`        | Intercept of the `fitLine`|
