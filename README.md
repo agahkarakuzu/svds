@@ -1,3 +1,5 @@
+![alt text](svds2.png)
+
 # Statistics Visualization Data Structure
 
 This is a pet project aiming at describing a set of simple, yet useful, data structures that can facilitate generation of interactive figures and web-based visualization interfaces for statistical analyses performed on scientific data.
