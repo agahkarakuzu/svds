@@ -16,16 +16,18 @@ SVDS for visualizing a scatter plot linked to Lin's Concordance Correlation (LCC
      - xData     
      - yData     
      - xLabel    
-     - yLabel    
-     - rSpearman 
-     - fitLine   
+     - yLabel
+     - rhoConcordance
+     - shiftedLine 
+     - identityLine   
 - [Optional](https://github.com/agahkarakuzu/svds/blob/master/Pearson.md#format)
      - CI        
      - CILevel    
-     - pVal       
+     - pVal  
      - h          
-     - slope      
-     - intercept  
+     - shift
+     - scale
+     - biasFactor
      - CILine1    
      - CILine2    
 
@@ -49,11 +51,11 @@ Please see [description.md](https://github.com/agahkarakuzu/svds/blob/master/des
 
 | Key        | Type                  | Description of value                                                                                |
 |------------|-----------------------|-----------------------------------------------------------------------------------------------------|
-| `xData`    | `<float>` `array [1XN]` | `N` number of data points or central tendency measures for the first independent variable.  |
-| `yData`    | `<float>` `array [1XN]` | `N` number of data points or central tendency measures for the second independent variable. |
+| `xData`    | `<float>` `array [1XN]` | `N` number of data points or central tendency estimates for the first set of measurements.  |
+| `yData`    | `<float>` `array [1XN]` | `N` number of data points or central tendency estimates for the second set of measurements. |
 | `xLabel`   | `<string>`            | Nametag for `xData`                                                                                 |
 | `yLabel`   | `<string>`            | Nametag for `yData`                                                                                 |
-| `rConcordance` | `<float>`             | LCC coefficient                                                                                    |
+| `rhoConcordance` | `<float>`             | LCC coefficient                                                                                    |
 | `deviationLine`  | `<float>` `array [1X4]` | Cartesian coordinates of two points that lie on the deviation line:`[x0,x1,y0,y1]`                   |
 | `identityLine`  | `<float>` `array [1X4]` | Cartesian coordinates of two points that lie on the identity line:`[x0,x1,y0,y1]`              |
 
@@ -63,9 +65,9 @@ Please see [description.md](https://github.com/agahkarakuzu/svds/blob/master/des
 |-----------|-------------------------|------------------------------------------------------------|
 | `pVal`      | `<float>`| The p-value associated with the LCC    |
 | `h` | `<boolean>`        | Declares the significance of the LCC |
-| `shift` | `<float>`      | Explain |
-| `scale` | `<float>`        | Explain|
-| `biasFactor` | `<float>`        | Explain|
+| `shift` | `<float>`      | The location shift |
+| `scale` | `<float>`        | The scale shift|
+| `biasFactor` | `<float>`        |  Measures how far the best-fit line deviates from the identity line. No deviation from the 45 degree line occurs when biasFactor equals 1.|
 | `CI`      | `<float>` `array [1X2]` | LCC confidence interval: `[CI_lower,`CI_upper`]`          |
 | `CILevel` | `<float>`               | Confidence interval level (1 - alpha). For example, 0.95.  |     
 | `CILine1` | `<float>` `array [1X4]`  | Cartesian coordinates of two points that lie on the line belonging to the lower `CI`:`[x0,x1,y0,y1]` |  
