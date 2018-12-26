@@ -52,8 +52,8 @@ Please see [description.md](https://github.com/agahkarakuzu/svds/blob/master/des
 
 | Key        | Type                  | Description of value                                                                                |
 |------------|-----------------------|-----------------------------------------------------------------------------------------------------|
-| `xData`    | `<float>` `array [1XN]` | `N` number of **ranked** data points or central tendency measures for the first independent variable.  |
-| `yData`    | `<float>` `array [1XN]` | `N` number of **ranked** data points or central tendency measures for the second independent variable. |
+| `xData`    | `<float>` `array [1XN]` | `N` number of **ranked** data points or central tendency estimates for the first set of measurements.  |
+| `yData`    | `<float>` `array [1XN]` | `N` number of **ranked** data points or central tendency estimates for the second set of measurements.|
 | `xLabel`   | `<string>`            | Nametag for `xData`                                                                                 |
 | `yLabel`   | `<string>`            | Nametag for `yData`                                                                                 |
 | `rSpearman` | `<float>`             | SRC coefficient                                                                                    |
