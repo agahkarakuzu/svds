@@ -4,7 +4,7 @@ SVDS for visualizing a scatter plot linked to Spearman's Rank Correlation (SRC).
 
 ## Format
 
-| Class | Bivariate::Spearman |
+| Class | Correlation::Spearman |
 |-----|----------------------------|
 
 - [Tag](https://github.com/agahkarakuzu/svds/blob/master/Pearson.md#format)
