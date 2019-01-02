@@ -4,7 +4,7 @@ SVDS for visualizing a scatter plot linked to a Pearson's product-moment correla
 
 ## Format
 
-| Class | Bivariate::Pearson |
+| Class | Correlation::Pearson |
 |-----|----------------------------|
 
 - [Tag](https://github.com/agahkarakuzu/svds/blob/master/Pearson.md#format)
