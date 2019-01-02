@@ -4,7 +4,7 @@ SVDS for visualizing a scatter plot linked to Lin's Concordance Correlation (LCC
 
 ## Format
 
-| Class | Bivariate::Concordance |
+| Class | Correlation::Concordance |
 |-----|----------------------------|
 
 - [Tag](https://github.com/agahkarakuzu/svds/blob/master/Pearson.md#format)
