@@ -43,7 +43,7 @@ Please see [description.md](https://github.com/agahkarakuzu/svds/blob/master/des
 
 | Key       | Type                    | Description of value                                       |
 |-----------|-------------------------|------------------------------------------------------------|
-| `OID`   | `<string>`|  (constant) 'Correlation::Spearman'          |
+| `OID`   | `<string>`| 'Correlation::Spearman'          |
 | `Subject` | `<string>`|     SubjectID          |
 | `Longitidunal`   | `<string>`|    LongitudinalID        |
 | `Segment`   | `<string>`|    SegmentID        |
