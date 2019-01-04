@@ -39,7 +39,7 @@ Please see [description.md](https://github.com/agahkarakuzu/svds/blob/master/des
 
 | Key       | Type                    | Description of value                                       |
 |-----------|-------------------------|------------------------------------------------------------|
-| `OID`   | `<string>`| (constant) 'Correlation::Pearson'          |
+| `OID`   | `<string>`| 'Correlation::Pearson'          |
 | `Subject` | `<string>`|     SubjectID          |
 | `Longitidunal`   | `<string>`|    LongitudinalID        |
 | `Segment`   | `<string>`|    SegmentID        |
