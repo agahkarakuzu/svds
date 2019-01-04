@@ -4,11 +4,11 @@ SVDS for visualizing a scatter plot linked to a Pearson's product-moment correla
 
 ## Format
 
-| Class | Correlation::Pearson |
+| Family::Type | Correlation::Pearson |
 |-----|----------------------------|
 
 - [Tag](https://github.com/agahkarakuzu/svds/blob/master/Pearson.md#format)
-    - Class
+    - OID
     - Subject 
     - Longitidunal
     - Segment 
@@ -39,7 +39,7 @@ Please see [description.md](https://github.com/agahkarakuzu/svds/blob/master/des
 
 | Key       | Type                    | Description of value                                       |
 |-----------|-------------------------|------------------------------------------------------------|
-| `Class`   | `<string>`|    'Bivariate::Pearson'          |
+| `OID`   | `<string>`| (constant) 'Correlation::Pearson'          |
 | `Subject` | `<string>`|     SubjectID          |
 | `Longitidunal`   | `<string>`|    LongitudinalID        |
 | `Segment`   | `<string>`|    SegmentID        |
