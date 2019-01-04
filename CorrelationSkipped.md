@@ -4,11 +4,11 @@ SVDS for visualizing a scatter plot linked to skipped correlation.
 
 ## Format
 
-| Class | Correlation::Skipped |
+| Family::Type | Correlation::Skipped |
 |-----|----------------------------|
 
 - [Tag](https://github.com/agahkarakuzu/svds/blob/master/Pearson.md#format)
-    - Class
+    - OID
     - Subject 
     - Longitidunal
     - Segment 
@@ -45,7 +45,7 @@ Please see [description.md](https://github.com/agahkarakuzu/svds/blob/master/des
 
 | Key       | Type                    | Description of value                                       |
 |-----------|-------------------------|------------------------------------------------------------|
-| `Class`   | `<string>`|    'Bivariate::Pearson'          |
+| `OID`   | `<string>`|    'Correlation::Skipped'          |
 | `Subject` | `<string>`|     SubjectID          |
 | `Longitidunal`   | `<string>`|    LongitudinalID        |
 | `Segment`   | `<string>`|    SegmentID        |
