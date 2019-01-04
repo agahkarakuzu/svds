@@ -4,11 +4,11 @@ SVDS for visualizing a scatter plot linked to Lin's Concordance Correlation (LCC
 
 ## Format
 
-| Class | Correlation::Concordance |
+| Family::Type | Correlation::Concordance |
 |-----|----------------------------|
 
 - [Tag](https://github.com/agahkarakuzu/svds/blob/master/Pearson.md#format)
-    - Class
+    - OID
     - Subject 
     - Longitidunal
     - Segment 
@@ -42,7 +42,7 @@ Please see [description.md](https://github.com/agahkarakuzu/svds/blob/master/des
 
 | Key       | Type                    | Description of value                                       |
 |-----------|-------------------------|------------------------------------------------------------|
-| `Class`   | `<string>`|    'Bivariate::Concordance'          |
+| `OID`   | `<string>`|    'Correlation::Concordance'          |
 | `Subject` | `<string>`|     SubjectID          |
 | `Longitidunal`   | `<string>`|    LongitudinalID        |
 | `Segment`   | `<string>`|    SegmentID        |
